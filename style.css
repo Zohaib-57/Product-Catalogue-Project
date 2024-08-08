@@ -151,5 +151,34 @@ margin-top: 10px;
 .laptop-card p{
     margin-top: 10px;
 }
+.head-3{
+    text-align: center;
+    margin-top: 50px;
+}
+#watch-container{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.watch-card{
+background-color: white;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 7px;
+}
+.watch-head{
+padding: 10px;
+}
+.watch-img img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+}
 
 
