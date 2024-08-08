@@ -66,7 +66,7 @@ body{
 }
 .nav-header h3{
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgb(143, 43, 237);
     padding: 5px 20px;
     color: white;
     margin: 12px;
@@ -118,4 +118,38 @@ body{
 .phone-card h4,p{
     text-align: center;
 }
+.head-2{
+    text-align: center;
+    margin-top: 50px;
+}
+#laptop-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tag {
+margin-top: 10px;
+    background-color: rgb(143, 43, 237);
+    width: 70px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.laptop-card img{
+    display: flex;
+    margin: 0 auto;
+}
+.laptop-card{
+    width: 280px;
+    height:320px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+}
+.laptop-card p{
+    margin-top: 10px;
+}
+
 
