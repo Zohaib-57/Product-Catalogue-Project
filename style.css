@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}.header{
+}
+body{
+    background-color: rgb(206, 207, 207,0.689);
+}
+.header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -46,4 +50,42 @@
   margin:10px;
   height: 32px;
     width: 32px;
+    cursor: pointer;
+}
+#nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px; 
+ 
+}
+.nav-header{
+    height: 250px;
+    width: 260px;
+    background-color: rgb(245, 238, 229);
+}
+.nav-header h3{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 5px 20px;
+    color: white;
+    margin: 12px;
+}
+.nav-link{
+    padding: 10px;
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.nav-link a:hover{
+    background-color: #dadadad3;
+    padding: 7px;
+}
+#nav-container div img{
+    height: 250px;
+    width: 900px;
+    margin-left: 70px;
 }
