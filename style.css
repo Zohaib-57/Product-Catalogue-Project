@@ -196,68 +196,32 @@ padding: 10px;
     margin: 10px;
 }
 
-
-/* Mobile Screens */
-@media (max-width: 767px) {
-    .header {
-        flex-direction: column;
-    }
-
-    .search {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    #nav-container {
-        flex-direction: column;
-    }
-
-    #nav-container div img {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    #phones-container,
-    #laptop-container,
-    #watch-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .phone-card,
-    .laptop-card,
-    .watch-card {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-
-    .watch-card {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .watch-img img {
-        width: 100%;
-    }
-}
 /* Tablet and PC's screens */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 768px)  {
     .header {
-        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
     .search {
-        width: 70%;
+        width: 50%;
+    }
+    .head-icons{
+        display: flex;
+        justify-content: space-between;
+
     }
 
     #nav-container {
-        flex-direction: column;
+        display: flex;
         align-items: center;
+        justify-content: space-evenly;
     }
 
     #nav-container div img {
         width: 100%;
-        margin-left: 0;
+        margin:5px;
     }
 
     #phones-container,
@@ -267,13 +231,18 @@ padding: 10px;
         align-items: center;
     }
 
-    .phone-card,
+    .phone-card{
+        width: 70%;
+        height: 70%;
+    }
     .laptop-card,
     .watch-card {
         width: 70%;
         margin-bottom: 20px;
     }
-
+.laptop-card img{
+    width: 70%;
+}
     .watch-card {
         flex-direction: column;
         height: auto;
