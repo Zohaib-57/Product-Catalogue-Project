@@ -248,11 +248,39 @@ padding: 10px;
     }
     #phones-container{
         display: flex;
-        flex-wrap: wrap;
-        place-items: center;
+        flex-wrap: wrap;   
     }
-    /* .phone-card{
-        margin: 15px 0 0 50px;
-        padding: 0; */
+    .phone-card{
+        width: 200px;
+        margin-left:20%;
+        padding: 0;
+    }
+    .phone-card img{
+        width: 150px;
+    }
+    .phone-card h4{
+        font-size: 14px;
+    }
+    .phone-card p{
+        font-size: 12px;
+    }
+    .head-2{
+        text-align: center;
+    }
+    #laptop-container{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        /* height: 400px; */
+    }
+    .laptop-card{
+        width: 250px;
+        height: auto;
+        margin-left: 0;
+    }
+    .laptop-card img{
+        /* width: 200px;
+        height: 200px; */
+       
     }
  }
