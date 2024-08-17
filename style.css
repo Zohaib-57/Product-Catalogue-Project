@@ -201,8 +201,8 @@ padding: 10px;
         height: auto;
     }
     .logo img{
-        width: 64px;
-        height: 64px;
+        width: 48px;
+        height: 48px;
     }
     .search-bar{
         display: flex;
@@ -269,18 +269,134 @@ padding: 10px;
     }
     #laptop-container{
         display: flex;
-        flex-direction: column;
-        width: 400px;
-        /* height: 400px; */
+        flex-wrap:wrap;
     }
     .laptop-card{
-        width: 250px;
-        height: auto;
-        margin-left: 0;
+    width: 250px;
+    height: auto;
     }
     .laptop-card img{
-        /* width: 200px;
-        height: 200px; */
-       
+        width: 200px;
+    }
+    #watch-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .watch-card{
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .watch-card img{
+        width: 150px;
+        height: 150px;
+    }
+    .footer{
+        width: 100%;
+        margin: 0;
+    }
+ }
+
+ 
+ @media (max-width:768px){
+    .header{
+        width: 100%;
+        height: auto;
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    .search-bar{
+        display: flex;
+        place-items: center;
+    }
+    .search{
+        width: 200px;
+    }
+    .head-icons{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .head-icons img{
+        width: 6vw;
+        height: 7vh;
+    }
+    #nav-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-header{
+        width: 30%;
+        height:20%;
+        margin: 10px 0;
+    }
+    .nav-link{
+        width: 95%;
+        padding: 8px;
+    }
+    .nav-link a{
+        font-size: 14px;
+        margin: 0;
+    }
+    #nav-container div img{
+        width: 100%;
+        height:35% ;
+        padding: 10px;
+        margin:0;
+    }
+    .head-1{
+        text-align: center;
+    }
+    #phones-container{
+        display: flex;
+        flex-wrap: wrap;   
+    }
+    .phone-card{
+        width: 200px;
+    }
+    .phone-card img{
+        width: 150px;
+    }
+    .phone-card h4{
+        font-size: 14px;
+    }
+    .phone-card p{
+        font-size: 12px;
+    }
+    .head-2{
+        text-align: center;
+    }
+    #laptop-container{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .laptop-card{
+    width: 300px;
+    height: auto;
+    }
+    .laptop-card img{
+        width: 200px;
+    }
+    #watch-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .watch-card{
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .watch-card img{
+        width: 150px;
+        height: 150px;
+    }
+    .footer{
+        width: 100%;
+        margin: 0;
     }
  }
